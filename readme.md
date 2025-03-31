@@ -36,10 +36,5 @@ The model achieved an **accuracy of 81%** across different SNR levels. Despite d
 - **Upsampling Limitations**: Expanding feature maps from (7,7) to (224,224) may have caused information loss.
 - **Overfitting Risks**: A deep model with limited data necessitated strong regularization techniques.
 
-## **Conclusion & Future Work**
-While the system met classification requirements, reaching 81% accuracy, further improvements could enhance generalization and robustness. Potential future enhancements include:
-- **Richer Synthetic Data**: More advanced data augmentation or GAN-based synthesis.
-- **Parallel Feature Extraction**: Combining ResNet-50 and EfficientNet-B0 in a parallel configuration.
-- **Lighter Classifier**: Reducing model complexity to improve inference speed.
-
-This study demonstrates the feasibility of deep learning for motor fault classification, with room for optimization in future iterations. 🚀
+## **Conclusion**
+The system met classification requirements by achieving 81% accuracy. Despite dataset constraints and model complexity, it effectively classified motor faults across different SNR levels. The results highlight the potential of deep learning in fault diagnosis while acknowledging challenges in data augmentation and model scalability. 🚀
